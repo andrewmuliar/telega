@@ -1,0 +1,11 @@
+<div ng-controller="msgCtrl">
+ <ul>
+  <li ng-repeat = "message in messages">
+   <div>{{message.user}}</div>
+   <div>{{message.msg}}</div>
+  </li>
+ </ul>
+ <div class="bottomMsg">
+  <textarea placeholder="Пиши, що хочеш. Тебе чує лише співрозмовник. Атвечаю..."></textarea>
+ </div>
+</div>
